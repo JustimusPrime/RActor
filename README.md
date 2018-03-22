@@ -1,24 +1,40 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Home 
+About
+Video - form, Uploader
+Schedule - form, img Uploader? probably not
+Blog - Form, img uploader?
+Press - C
+Contact
 
-Things you may want to cover:
+rails g controller Pages home about contact
 
-* Ruby version
+First make Home, About, Contact
 
-* System dependencies
 
-* Configuration
 
-* Database creation
+- Fix the schedule - displaying personal stuff, it likes to his google calendar API
+- date & time, name of show, location, link
+    - See if I can auto-pop, have it repeat
 
-* Database initialization
+- Events feed is broken - hide temporarily
+    - Will feed from table, some default value for nil
 
-* How to run the test suite
+- Videos
+    - One big one, links at bottom and then a main vid, clicking link switches out
 
-* Services (job queues, cache servers, search engines, etc.)
+- Press
+    - At least split em up, all are currently broken, he should post them to blogs too and link, if he has no press hide the page 
 
-* Deployment instructions
+- Footer nav needs 
 
-* ...
+- Look into nav bar
+
+- Form for contact is broken, form will:
+    - Booking requests, join email lists
+- 4 fields, name (optional), email, subject, content - whatever is typed in the form is an email that goes to Calvin
+
+- FIX MOBILE VIEWS
+    - Formatting is all off
+
